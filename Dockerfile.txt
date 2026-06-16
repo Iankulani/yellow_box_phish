@@ -1,0 +1,60 @@
+FROM python:3.11-alpine
+
+LABEL maintainer="Ian Carter Kulani"
+LABEL description="YellowBoxPhish - Multi-Platform Phishing & Command Center"
+
+# Install system dependencies
+RUN apk add --no-cache \
+    bash \
+    nmap \
+    curl \
+    dig \
+    traceroute \
+    openssh-client \
+    nikto \
+    git \
+    build-base \
+    libffi-dev \
+    openssl-dev \
+    chromium \
+    chromium-chromedriver \
+    tcpdump \
+    net-tools \
+    iproute2 \
+    iptables \
+    util-linux \
+    sudo \
+    && pip install --no-cache-dir --upgrade pip
+
+# Create application user
+RUN addgroup -g 1000 -S yellowbox && adduser -u 1000 -S yellowbox -G yellowbox
+
+# Set working directory
+WORKDIR /app
+
+# Copy requirements first for better caching
+COPY requirements.txt .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy application files
+COPY yellow_box_phish.py .
+COPY test_commands.py .
+COPY requirements_check.py .
+COPY entrypoint.sh .
+COPY .env.example .env
+
+# Create necessary directories
+RUN mkdir -p .yellow_box_phish reports \
+    && chown -R yellowbox:yellowbox /app
+
+# Set entrypoint
+RUN chmod +x entrypoint.sh
+
+USER yellowbox
+
+EXPOSE 8080
+
+ENTRYPOINT ["./entrypoint.sh"]
+CMD ["python3", "yellow_box_phish.py"]

@@ -1,0 +1,15 @@
+yellow_box_phish/
+├── yellow_box_phish.py          # Main application
+├── requirements.txt             # Python dependencies
+├── Dockerfile                   # Docker configuration
+├── docker-compose.yml           # Compose setup
+├── install.sh                   # Linux/macOS installer
+├── install.bat                  # Windows installer
+├── test_commands.py             # Test suite
+├── requirements_check.py        # Dependency checker
+├── .gitlab-ci.yml              # CI/CD pipeline
+├── .env.example                 # Environment variables
+├── setup.py                     # Python package
+├── pyproject.toml               # Project config
+├── Makefile                     # Make commands
+└── README.md                    # Documentation
