@@ -4,3 +4,15 @@
 
 
 Yellow box phish, is acyber security tool the tool enable the user to fire cyber security commands via Discord, Slack, Telegram, Whatsapp, iMessage, Signal, Google Chat, and Web Application.
+
+
+# How to clone the repo
+```bash
+git clone https://github.com/Iankulani/yellow_box_phish.git
+cd yellow_box_phish
+```
+
+# How to run
+```bash
+python yellow_box_phish.py
+```
