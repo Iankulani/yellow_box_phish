@@ -19,5 +19,4 @@ cd yellow_box_phish
 python yellow_box_phish.py
 ```
 
-
 # Star History
