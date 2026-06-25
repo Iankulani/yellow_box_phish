@@ -4,6 +4,29 @@
 
 <img width="910" height="824" alt="yellow" src="https://github.com/user-attachments/assets/1af87c58-d97f-417a-b7e1-f625fce1f397" />
 
+[![GitHub stars](https://img.shields.io/github/stars/Iankulani/yellow_box_phish?style=for-the-badge&logo=github)](https://github.com/Iankulani/yellow_box_phish/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Iankulani/yellow_box_phish?style=for-the-badge&logo=github)](https://github.com/Iankulani/yellow_box_phish/network)
+[![GitHub watchers](https://img.shields.io/github/watchers/Iankulani/yellow_box_phish?style=for-the-badge&logo=github)](https://github.com/Iankulani/yellow_box_phish/watchers)
+[![GitHub contributors](https://img.shields.io/github/contributors/Iankulani/yellow_box_phish?style=for-the-badge&logo=github)](https://github.com/Iankulani/yellow_box_phish/graphs/contributors)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Iankulani/yellow_box_phish?style=for-the-badge&logo=git)](https://github.com/Iankulani/yellow_box_phish/commits/main)
+
+[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS-blue?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Iankulani/yellow_box_phish)
+[![Python](https://img.shields.io/badge/python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Docker](https://img.shields.io/badge/docker-supported-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
+
+[![Discord](https://img.shields.io/badge/Discord-Integration-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com)
+[![Telegram](https://img.shields.io/badge/Telegram-Integration-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.org)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Integration-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com)
+[![Signal](https://img.shields.io/badge/Signal-Integration-3A76F0?style=for-the-badge&logo=signal&logoColor=white)](https://signal.org)
+[![Slack](https://img.shields.io/badge/Slack-Integration-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://slack.com)
+[![Google Chat](https://img.shields.io/badge/Google%20Chat-Integration-34A853?style=for-the-badge&logo=googlechat&logoColor=white)](https://workspace.google.com/products/chat/)
+[![iMessage](https://img.shields.io/badge/iMessage-Supported-007AFF?style=for-the-badge&logo=apple&logoColor=white)](https://apple.com)
+
+[![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Research-red?style=for-the-badge&logo=hackaday&logoColor=white)](https://github.com/Iankulani/yellow_box_phish)
+[![Security Awareness](https://img.shields.io/badge/Security-Awareness-orange?style=for-the-badge&logo=securityscorecard&logoColor=white)](https://github.com/Iankulani/yellow_box_phish)
+[![Training](https://img.shields.io/badge/Cyber-Training-blue?style=for-the-badge&logo=academia&logoColor=white)](https://github.com/Iankulani/yellow_box_phish)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-success?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/Iankulani/yellow_box_phish)
 
 Yellow Box Phish is a modern cyber security platform designed to support cyber security professionals, educators, researchers, red teams, blue teams, security operations centers, and cyber range environments. The platform provides a centralized command and communication framework that enables authorized users to interact with security tools and training modules through popular communication platforms such as Discord, Telegram, Slack, WhatsApp, Signal, iMessage, Google Chat, and a dedicated web application.
 
