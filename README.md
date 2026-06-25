@@ -176,6 +176,7 @@ Yellow Box Phish is a comprehensive cyber security communication and training pl
 
 Designed for modern cyber security environments, Yellow Box Phish empowers organizations to build stronger security cultures, conduct realistic training exercises, support research initiatives, and prepare teams for the challenges of an evolving digital threat landscape while operating within authorized and ethical frameworks.
 
+Note: For legal and ethical reasons, the description positions the platform for authorized security testing, education, training, and defensive use rather than malicious or unauthorized activity.
 
 # How to clone the repo
 ```bash
